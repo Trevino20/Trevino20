@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            border: 2px solid black;
+            width: 100%;
+            height: 500px;
+            display: flex;
+            /* dipslpay flex property for container party  */
+            /* flex-direction: column; */
+            /* deflaut flex direction is row */
+            /* flex-direction: row; */
+            /* flex-direction: column-reverse; */
+            /* flex-direction: row-reverse; */
+
+            /* flexbox wrap are used responcive website */
+            /* flex-wrap: wrap; */
+            /* flex-wrap: wrap-reverse; */
+
+            /* WE CAN GIVE her direction and wrap  together */
+            /* flex-flow: row-reverse wrap; */
+
+            /* justify-content will justify the content in horizontal direction  */
+            /* justify-content: center; */
+            /* justify-content: space-between;  :-SPACE BETWEEN TWO BOX ONLY */
+            /* justify-content: space-evenly; */
+            /* justify-content: space-around;  */
+
+            /* justify-content will justify the content in vertical direction  */
+            /* align-items: center; */
+            /* align-items: flex-end; */
+            /* align-items: flex-start; */
+            align-items: stretch;
+
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            border: 2px solid black;
+            background-color: blanchedalmond;
+            margin: 1px;
+            padding: 2px;
+            flex-wrap: wrap;
+        }
+
+        #item-1 {
+            /* Flex properties for a flex item */
+            /* Higher the order, later it shows up in the container */
+            /* order: 2; */
+            /* its increase and dreascers the box size when we responce the website  */
+            /* flex-grow: 2; */
+            flex-shrink: 2;
+
+        }
+
+        #item-2 {
+            /* flex-grow: 3;
+            flex-shrink: 3 ; */
+            flex-basis: 160px;
+            /* when flex-direction is set to row flex-basis: will control width */
+            /* when flex-direction is set to column flex-basis: will control height */
+        }
+
+        #item-3 {
+            flex: 2 2 230px;
+            /* align-self: flex-start;
+            align-self: flex-end;
+            align-self: center; */
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box" id="item-1">FIRST BLOG</div>
+        <div class="box" id="item-2">SECOND BLOG</div>
+        <div class="box" id="item-3">THIRD BLOG</div>
+        <div class="box" id="item-4">FORTH BLOG</div>
+        <div class="box" id="item-5">FIRTH BLOG</div>
+        <div class="box" id="item-6">SIXTH BLOG</div>
+    </div>
+</body>
+
+</html>
