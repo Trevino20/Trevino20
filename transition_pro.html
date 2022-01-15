@@ -1,0 +1,61 @@
+<!-- all property how work are write in the keyframes_and_animation.html file so check it out the file -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: cyan;
+        }
+
+        .container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: chartreuse;
+        }
+
+        .box {
+            display: flex;
+            width: 250px;
+            height: 250px;
+            border: 2px solid black;
+            background-color: burlywood;
+            align-items: center;
+            justify-content: center;
+            /* transition-property: background-color;
+            transition-duration: 2s;
+            transition-timing-function: ease-in-out;
+            transition-delay: 2s; */
+            /* transition short hand property or single line property */
+            /* transition: transition-property transition-duration transition-timing-funtion transtion-delay; */
+            /* transition: background-color 1s ease-in-out 2s; */
+            transition: all 1s ease-in-out 2s;
+        }
+        .box:hover{
+            background-color: darkmagenta;
+            width: 500px;
+            height: 500px;
+            border-radius: 300px;
+            font-size: 44px;
+
+        }
+    </style>
+    
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+           <p> this is a box</p>
+        </div>
+    </div>
+</body>
+
+</html>

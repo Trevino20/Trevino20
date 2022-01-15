@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            background-color: greenyellow;
+        }
+
+        .box {
+            background-color: hotpink;
+            width: 250px;
+            height: 250px;
+            position: relative;
+            animation-name: avadhut;
+            animation-name: avadhut2;
+
+
+            /* It is used to decide how long our animation will run. */
+            animation-duration: 4s;
+
+
+
+
+            /* It is used to decide the number of times the animation will run. */
+            animation-iteration-count: 4;
+
+
+
+
+            /* animation-fill-mode:
+If we want to keep the last property applied to the animation then we can set the animation-fill-property as forward as follows- we can stop the animation on that stage of the runing program is over */
+            /* animation-fill-mode: forwards; */
+            animation-fill-mode: alternative;
+
+
+            /*           ease-in
+After applying this, the animation will start slowly and becomes fast towards the end.
+
+ease-out
+After applying this, the animation will begin fastly and become slow towards the end.
+
+ease-in-out
+After applying this, the animation will start slowly, then become fast in the midway, and ends slowly. */
+            animation-timing-function: ease-in-out;
+
+
+
+            /* It is used to define the time after which the animation will start. stop the animation from the seconds */
+            animation-delay: 0.0s;
+
+
+
+            /* This property is used to define the direction of the animation. For example, if we select it as reverse, it will move the animation in reverse direction. */
+            /* animation-direction: reverse; */
+            animation-direction: none;
+
+
+        }
+
+        /* The keyframes are used to make the animation. From and to are used to decide how the animation will move in the webpage. In the above example, we are moving the animation harry 1 from 200px to 1400px. These types of animations are used to design scroll bars or progress bars on the webpage. */
+        @keyframes avadhut {
+            from {
+                width: 200px;
+            }
+
+            to {
+                width: 700px;
+            }
+        }
+
+        @keyframes avadhut2 {
+            0% {
+                top: 0px;
+                left: 0px;
+            }
+
+            25% {
+                top: 300px;
+                left: 0px;
+            }
+
+            75% {
+                top: 300px;
+                left: 300px;
+            }
+
+            100% {
+                top: 0px;
+                left: 300px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+
+        </div>
+    </div>
+</body>
+
+</html>
