@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Trevino20
 - 👀 I’m interested in Data science
-- 🌱 I’m currently learning Staistics
+- 🌱 I’m currently learning statistics and python modules
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 
