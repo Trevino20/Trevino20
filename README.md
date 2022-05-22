@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @Trevino20
+- 👋 Hi, I’m Avadhut Varvatkar
 - 👀 I’m interested in Data science
 - 🌱 I’m currently learning statistics and python modules
 - 💞️ I’m looking to collaborate on ...
