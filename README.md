@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Avadhut Varvatkar
 - 👀 I’m interested in Data science
-- 🌱 I’m currently learning statistics and python modules
+- 🌱 I’m currently Pursuving Data Science and Big Data Analysis
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 
